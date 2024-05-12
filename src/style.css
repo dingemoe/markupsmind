@@ -1,0 +1,20 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.0/dist/tailwind.min.css');
+
+h1,
+p {
+  font-family: Lato;
+}
+body {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+div {
+  position: fixed;
+  top: 0;
+}
+select,
+textarea {
+  display: none;
+  overflow: hidden;
+}
